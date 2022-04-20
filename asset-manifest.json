@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Potho-Joddha-React/static/css/main.95b3c152.css",
+    "main.js": "/Potho-Joddha-React/static/js/main.f6496350.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Potho-Joddha-React/static/js/787.28cb0dcd.chunk.js",
+    "static/media/volunteer.avif": "/Potho-Joddha-React/static/media/volunteer.bf30066686134c5e8598.avif",
+    "static/media/street_children.avif": "/Potho-Joddha-React/static/media/street_children.257608e05b817418f88b.avif",
+    "static/media/street_children_2.jpg": "/Potho-Joddha-React/static/media/street_children_2.ad7c9abccd2eb7985189.jpg",
+    "static/media/street_children_3.jpg": "/Potho-Joddha-React/static/media/street_children_3.020ac72a97b51f0af9bd.jpg",
+    "static/media/street_children_about_section.jpg": "/Potho-Joddha-React/static/media/street_children_about_section.cea4b3bceb616e035d68.jpg",
+    "static/media/street_children_1.jpg": "/Potho-Joddha-React/static/media/street_children_1.6fa63ea9e58e24193004.jpg",
+    "static/media/logo.svg": "/Potho-Joddha-React/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Potho-Joddha-React/index.html",
+    "main.95b3c152.css.map": "/Potho-Joddha-React/static/css/main.95b3c152.css.map",
+    "main.f6496350.js.map": "/Potho-Joddha-React/static/js/main.f6496350.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Potho-Joddha-React/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95b3c152.css",
+    "static/js/main.f6496350.js"
+  ]
+}
