@@ -5,6 +5,7 @@ import Cards from './components/Cards';
 import Stats from './components/Stats';
 import CausesCards from './components/CausesCards';
 import Volunteer from './components/Volunteer';
+import EventCards from './components/EventsCards'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Stats />
       <CausesCards />
       <Volunteer />
+      <EventCards />
     </div>
   );
 }

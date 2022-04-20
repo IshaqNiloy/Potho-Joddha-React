@@ -1,37 +1,41 @@
 .volunteer-row {
+    color: #fff;
     background-image: url(../images/volunteer.avif);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .volunteer-section {
     text-align: center;
     padding: 80px 0px 80px 0px;
-    /*background-image: linear-gradient(to bottom right, red, yellow);*/ 
+    background: rgba(255, 136, 0, 0.5);
+}
+
+.volunteer-section h1 {
+    font-weight: bold;
 }
 
 .volunteer-section p {
+    font-size: 18px;
     max-width: 500px;
     margin: auto;
     padding: 60px 0px 60px 0px;
 }
 
 .volunteer-section button {
-    color: #fff;
+    color: #f58700;
     font-weight: bold;
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-color: #fff;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    padding: 15px 30px 15px 30px;
-    border: 0px;
+    padding: 15px 40px 15px 40px;
+    border: 0.5px solid #f58700;
     transition: all 0.3s ease-in-out;
 }
 
 .volunteer-section button:hover {
-    background-image: linear-gradient(to top left, red, yellow);
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    color: #fff;
+    background-color: #f58700;
 }
 
