@@ -1,0 +1,37 @@
+.volunteer-row {
+    background-image: url(../images/volunteer.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.volunteer-section {
+    text-align: center;
+    padding: 80px 0px 80px 0px;
+    /*background-image: linear-gradient(to bottom right, red, yellow);*/ 
+}
+
+.volunteer-section p {
+    max-width: 500px;
+    margin: auto;
+    padding: 60px 0px 60px 0px;
+}
+
+.volunteer-section button {
+    color: #fff;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 15px 30px 15px 30px;
+    border: 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.volunteer-section button:hover {
+    background-image: linear-gradient(to top left, red, yellow);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+

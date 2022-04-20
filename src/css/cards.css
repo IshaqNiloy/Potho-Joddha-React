@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100;1,700&display=swap');
+
+.container > .row {
+    padding: 80px 0px 80px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-lg-4 > p {
+    margin-bottom: 35px;
+}
+
+.col-lg-4 > button {
+    margin-bottom: 35px;
+}
+
+.cards-section-overlay h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-bottom: 35px;
+}
+
+.cards-section-overlay p {
+    font-family: 'Roboto';
+    color: #818181;
+    line-height: 2em;
+}
+
+.cards-section-overlay button {
+    color: #fff;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 15px 30px 15px 30px;
+    border: 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cards-section-overlay button:hover {
+    background-image: linear-gradient(to top left, red, yellow);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.my-card {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.my-card:hover {
+    color: #fff;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+img {
+    width: 32px;
+    padding-bottom: 15px;
+    transition: all 0.3s ease-in-out; 
+}
+
+#card-icon-orange {
+    display: block;
+}
+
+#card-icon-white {
+    display: none;
+}
+
+.my-card:hover #card-icon-orange {
+    display: none;
+}
+
+.my-card:hover #card-icon-white {
+    display: block;
+}
+.card-heading > h4 {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 0px 20px 0px;
+}
+
+.card-description {
+    color: #818181;
+    line-height: 2em;
+    transition: all 0.3s ease-in-out; 
+}
+
+.my-card:hover .card-description > p {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+a {
+    font-family: sans-serif;
+    color: #f58700 !important;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 24px 0px 0px 0px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.my-card:hover a {
+    color: #fff !important;
+}
+
+.col-lg-6 .row:first-child .col-sm-6:first-child {
+    margin-top: 60px;
+} 
+
+.col-lg-6 .row:nth-child(2) .col-sm-6:first-child {
+    margin-top: 60px;
+}

@@ -1,0 +1,97 @@
+.container {
+    width: 1170px;
+}
+.navbar {
+    background-color: transparent;
+}
+
+.brand {
+    color: #fff;
+    font-weight: 700;
+}
+.navbar-heroimg-overlay-combined {
+    height: 85vh;
+    background: url('../images/street_children.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom-right-radius: 60%;
+    border-bottom-left-radius: 20%;
+}
+
+.navbar-heroimg-overlay-combined-container {
+    height: 85vh;
+    opacity: 0.8;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    border-bottom-right-radius: 60%;
+    border-bottom-left-radius: 20%;
+}
+
+.hero-section-text {
+    margin: auto;
+    max-width: 682px;
+    height: inherit;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-section-text h2 {
+    font-size: 80px;
+}
+
+@media (max-width: 1200px) {
+    .hero-section-text h2 {
+        font-size: 30px;
+    }
+}
+
+.hero-section-text p {
+    
+    font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+    .hero-section-text h2, p {
+        position: relative;
+        top: 30%;
+    }
+}
+
+.donation-btn {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 14px 40px 14px 40px;
+    margin-top: 15px;
+}
+
+.donation-btn {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 14px 40px 14px 40px;
+    margin-top: 15px;
+    background: linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    box-shadow: 1px 1px 15px #000;
+    transition: all .5s ease-out;
+}
+
+.donation-btn:hover {
+    color: #fff;
+    background-position: left bottom;
+}
+
+@media (max-width: 1200px) {
+    .donation-btn {
+        position: relative;
+        top: 30%;
+    }
+}
