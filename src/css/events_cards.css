@@ -6,9 +6,9 @@
 }
 
 .col-md-6 {
-    padding: 0;
+    padding: 0 !important
 }
-.col-right-section {
+.card-right-section {
     background-color: #f7f7f7;
     border-bottom-right-radius: 55px;
 }
@@ -112,4 +112,45 @@
 
 .btn-div {
     padding: 70px;
+}
+
+.events-card {
+    padding: 35px;
+}
+
+.events-card-info {
+    padding: 35px;
+}
+
+.events-info > p {
+    color: #818181;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.digits {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.days, .hours {
+    border-right: 1px solid #a8a7a7;
+}
+
+.days {
+    padding-right: 20px;
+}
+
+.hours {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.minutes {
+    padding-left: 20px;
 }

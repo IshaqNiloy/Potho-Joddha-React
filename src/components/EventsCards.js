@@ -30,27 +30,55 @@ export default function Card(props) {
                     </Row>
                     <Row>
                         <Col md={6}>
-                            <Row>
+                            <Row className="events-card">
                                 <Col md={6}>
                                     <img src={street_children_1} />
                                 </Col>
-                                <Col md={6} className="col-right-section">
-                                    <div className="events-card-body">
+                                <Col md={6} className="card-right-section">
+                                    <div className="events-card-info">
                                         <h4>volunteer Idea 2022</h4>
                                         <p>Seed the life upon you are creat.</p>
+                                        <div className="timer">
+                                            <div className="days">
+                                                <span className="digits">6<br/></span>
+                                                <span className="units">Days</span>
+                                            </div>
+                                            <div className="hours">
+                                                <span className="digits">6<br/></span>
+                                                <span className="units">Hours</span>
+                                            </div>
+                                            <div className="minutes">
+                                                <span className="digits">6<br/></span>
+                                                <span className="units">Minutes</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </Col>
                             </Row>
                         </Col>
                         <Col md={6}>
-                            <Row>
+                            <Row className="events-card">
                                 <Col md={6}>
                                     <img src={street_children_2} />
                                 </Col>
-                                <Col md={6} className="col-right-section">
-                                    <div className="events-card-body">
+                                <Col md={6} className="card-right-section">
+                                    <div className="events-card-info">
                                         <h4>volunteer Idea 2022</h4>
                                         <p>Seed the life upon you are creat.</p>
+                                        <div className="timer">
+                                            <div className="days">
+                                                <span className="digits">6<br/></span>
+                                                <span className="units">Days</span>
+                                            </div>
+                                            <div className="hours">
+                                                <span className="digits">6<br/></span>
+                                                <span className="units">Hours</span>
+                                            </div>
+                                            <div className="minutes">
+                                                <span className="digits">6<br/></span>
+                                                <span className="units">Minutes</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </Col>
                             </Row>
@@ -59,27 +87,55 @@ export default function Card(props) {
                     
                     <Row>
                         <Col md={6}>
-                            <Row>
+                            <Row className="events-card">
                                 <Col md={6}>
                                     <img src={street_children_3} />
                                 </Col>
-                                <Col md={6} className="col-right-section">
-                                    <div className="events-card-body">
+                                <Col md={6} className="card-right-section">
+                                    <div className="events-card-info">
                                         <h4>volunteer Idea 2022</h4>
                                         <p>Seed the life upon you are creat.</p>
+                                        <div className="timer">
+                                            <div className="days">
+                                                <span className="digits">6<br/></span>
+                                                <span className="units">Days</span>
+                                            </div>
+                                            <div className="hours">
+                                                <span className="digits">6<br/></span>
+                                                <span className="units">Hours</span>
+                                            </div>
+                                            <div className="minutes">
+                                                <span className="digits">6<br/></span>
+                                                <span className="units">Minutes</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </Col>
                             </Row>
                         </Col>
                         <Col md={6}>
-                            <Row>
+                            <Row className="events-card">
                                 <Col md={6}>
                                     <img src={street_children_1} />
                                 </Col>
-                                <Col md={6} className="col-right-section">
-                                    <div className="events-card-body">
+                                <Col md={6} className="card-right-section">
+                                    <div className="events-card-info">
                                         <h4>volunteer Idea 2022</h4>
                                         <p>Seed the life upon you are creat.</p>
+                                        <div className="timer">
+                                            <div className="days">
+                                                <span className="digits">6<br/></span>
+                                                <span className="units">Days</span>
+                                            </div>
+                                            <div className="hours">
+                                                <span className="digits">6<br/></span>
+                                                <span className="units">Hours</span>
+                                            </div>
+                                            <div className="minutes">
+                                                <span className="digits">6<br/></span>
+                                                <span className="units">Minutes</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </Col>
                             </Row>
