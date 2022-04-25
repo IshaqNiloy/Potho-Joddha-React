@@ -6,8 +6,18 @@
 }
 
 .col-md-6 {
-    padding: 0 !important
+    padding: 0 !important;
 }
+
+.col-lg-6 {
+    padding: 0 !important;
+}
+
+.col-lg-6 > img {
+    padding: 0;
+    border-bottom-right-radius: 0;
+}
+
 .card-right-section {
     background-color: #f7f7f7;
     border-bottom-right-radius: 55px;
@@ -133,7 +143,7 @@
     padding-top: 25px;
 }
 
-.digits {
+.digits-days, .digits-hours, .digits-mins{
     font-size: 24px;
     font-weight: bold;
 }
@@ -154,3 +164,24 @@
 .minutes {
     padding-left: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

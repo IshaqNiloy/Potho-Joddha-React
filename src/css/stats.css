@@ -1,3 +1,7 @@
+.stats-row {
+    padding: 15px !important;
+}
+
 .col-lg-6 {
     padding: 15px !important;
 }
@@ -9,8 +13,10 @@
     padding: 60px; 
 }
 
-#about-section-right {
-    padding-left: 55px !important;
+@media (min-width: 992px) {
+    #about-section-right {
+        padding-left: 55px !important;
+    }
 }
 
 .about-section > h2 {

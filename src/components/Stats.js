@@ -7,7 +7,7 @@ import street_child from '../images/street_children_about_section.jpg';
 export default function Stats() {
     return (
         <Container>
-            <Row>
+            <Row className="stats-row">
                 <Col lg={6}>
                     <img src={street_child} />
                 </Col>
